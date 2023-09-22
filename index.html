@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Portfolio  </title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Sivaranjani Elumalai</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href=#about>About</a></li>
+                <li><a href=#skills>Skills </a></li>
+                <li><a href=#projects>Projects</a></li>
+                <li><a href=#contact>Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Sivaranjani Elumalai</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href=#about onclick="toggleMenu()">About</a></li>
+                <li><a href=#skills onclick="toggleMenu()">Skills </a></li>
+                <li><a href=#projects onclick="toggleMenu()">Projects</a></li>
+                <li><a href=#contact onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./profile-pic.JPG" alt="Sivaranjani profile picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> Hello , I'm</p>
+            <h1 class="title">Sivaranjani Elumalai</h1>
+            <p class="section__text__p2">Data Analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" 
+                onclick="window.open('./siva resume.pdf')">
+                Download CV</button>
+
+                <button class="btn btn-color-1" 
+                onclick="location.href='./#contact'">
+                Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img 
+                src="./linkedin.png" alt="My LinkedIn Profile"
+                class="icon"
+                onclick="location.href='https://www.linkedin.com/in/sivaranjani-e-741899138/'"
+                />
+                <img 
+                src="./github.png" alt="My Github Profile"
+                class="icon"
+                onclick="location.href='https://github.com/Ranjani1312/myprofile'"
+                />
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./about-pic.jpg"
+                alt="Profile picture"
+                class="about-pic"
+                />
+            </div>
+            <div class="about-details-conatiner">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./experience.png"
+                        alt="Experience icon"
+                        class="icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>1+ Years of Experience</p>
+                        <p>as Data Analyst</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./education.png"
+                        alt="education icon"
+                        class="icon"
+                        />
+                        <h3>Education</h3>
+                        <p>B.E <br /> Computer Science Engineering</p>
+                    </div>
+                </div>                    
+                <div class="text-container">
+                    <p>
+                        I'm Sivaranjani , Detail-oriented IT professional with an experience of 1+ years, targeting assignments in Report Development
+                         (using Power BI) with an organisation of high repute, preferably in IT Industry.
+                        <br>
+                        <br>
+                        
+                        To succeed in an environment of growth and excellence and pursue a highly rewarding profession, where I can build an
+                        innovative career in your esteemed organization by using my skills and other significant talents.                        
+<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <p class="section__text__p1"> Explore My </p>
+        <h1 class="title">Technical Skills</h1>
+        <div class="skills-details-conatiner">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Business Intelligence Tools</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                 <h3>Power BI</h3>
+                                <p>Good</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                 <h3>MS PowerPoint</h3>
+                                 <p>Good</p>
+                                </div>
+                        </article>
+
+                        <article>
+                            <img src="./checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                 <h3>Excel(advanced)</h3>
+                                 <p>Good</p>
+                                </div>
+                        </article>
+
+                        <article>
+                            <img src="./checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                 <h3>MS Word</h3>
+                                 <p>Good</p>
+                                </div>
+                        </article>
+                        
+                    </div>
+                </div>
+
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Backend Developement</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                 <h3>Python</h3>
+                                <p>Good</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <img src="./checkmark.png"
+                            alt="Experience icon"
+                            class="icon"
+                            />
+                            <div>
+                                 <h3>My SQL</h3>
+                                <p>Good</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="skills-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        
+                        <p>Developed a Power BI dashboard to analyze sales data and track key performance
+                            indicators (KPIs).
+                            Created interactive visualizations, including charts, tables, and slicers, to provide insights
+                            into sales trends and patterns.
+                            Implemented measures and calculated columns to perform calculations and metrics
+                            calculations.
+                            Collaborated with the sales team to identify actionable insights for improving sales
+                            strategies.</p>
+                    </div>
+                    <h2 class="skills-sub-title project-title">Sales Analysis Dashboard</h2>
+                    <div class="btn-container">   
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'"
+                        >
+                            Github
+                         </button>
+                         
+                         <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'"
+                        >
+                            Live Demo
+                         </button>
+                    </div>
+                </div>
+    
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <p>This "Blue Moon Restaurant" Project is an Hotel Management system using Python to simplify 
+                            hotel operations by automating them. It covers major aspects of hotel management;
+                             it could perform the following operations- Hotel Booking, Provide you with Hotel Rooms Information, 
+                             Room Service, Billing and Record-Keeping. </p>
+                    </div>
+                    <h2 class="skills-sub-title project-title">Blue Moon Restaurant</h2>
+                    <div class="btn-container">   
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'"
+                        >
+                            Github
+                         </button>
+                         
+                         <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'"
+                        >
+                            Live Demo
+                         </button>
+                    </div>
+                </div>       
+    
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        
+                        <p>It is designed to get the customer details and documents for GST Registration based on their
+                            Bussiness type and for computation i I have designed GST calculator, set-off calculator, and
+                            interest late fee calculator these are essential tools for businesses that need to comply with
+                            GST regulations. These tools simplify the calculation process,save time, and help businesses
+                            optimize their GST payments. Designed using Tkinter GUI and for storing customer details
+                            in MySQL Database. 
+                               </p>
+                    </div>
+                    <h2 class="skills-sub-title project-title">GST Registration and Computation</h2>
+                    <div class="btn-container">   
+                        <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'"
+                        >
+                            Github
+                         </button>
+                         
+                         <button class="btn btn-color-2 project-btn" 
+                        onclick="location.href='https://github.com/'"
+                        >
+                            Live Demo
+                         </button>                     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./email.png"
+                alt="Email-icon"
+                class="icon contact-icon"
+                />
+                <p> 
+                    <a href="mailto:sivaranjanidace94@gmail.com">sivaranjanidace94@gmail.com</a>
+                </p>
+            </div>
+
+            <div class="contact-info-container">
+                <img src="./linkedin.png"
+                alt="LinkedIn"
+                class="icon contact-icon"
+                />
+                <p> 
+                    <a href="https://www.linkedin.com/in/sivaranjani-e-741899138/">LinkedIn</a>
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <nav id="desktop-nav">
+            <div class="logo">Sivaranjani Elumalai</div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href=#about>About</a></li>
+                    <li><a href=#skills>Skills </a></li>
+                    <li><a href=#projects>Projects</a></li>
+                    <li><a href=#contact>Contact</a></li>
+                </ul>
+            </div>
+        </nav>  
+        <p>Copyright &#169; 2023 Sivaranjani Elumalai, All Rights Reserved</p>  
+    </footer>
+    <script src="script.js"></script>
+    
+</body>
+</html>
